@@ -1,0 +1,95 @@
+.MainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid rgb(245, 130, 130);
+  }
+
+  input {
+    width: 70%;
+    display: block;
+    margin-block: 10px;
+    padding: 10px;
+  }
+
+  .setRadio {
+    display: flex;
+    gap: 20px;
+  }
+
+  .setallradio {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .setDropDown {
+    margin-block: 10px;
+  }
+
+  /* Table Styles */
+  .user-table {
+    width: 70%;
+    margin-inline: auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  /* Header Styles */
+  .user-table th {
+    background-color: rgb(228, 98, 98);
+  }
+
+  /* Delete Button Styles */
+  .delete-button {
+    background-color: #ff6666;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  .delete-button:hover {
+    background-color: #ff3333;
+  }
+
+  /* Update Button Styles */
+  .update-button {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+
+  .update-button:hover {
+    background-color: #45a049;
+  }
+
+  .pagination {
+    padding: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 20px;
+  }
+
+  .btn {
+    padding: 20px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    border: none;
+  }
+
+}

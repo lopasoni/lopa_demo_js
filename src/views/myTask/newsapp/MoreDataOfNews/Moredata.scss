@@ -1,0 +1,57 @@
+.personalBlog {
+    width: 70%;
+    margin-inline: auto;
+
+    h1 {
+        font-size: 2.2rem;
+        color: teal;
+    }
+
+    .blog {
+        margin-block: 20px;
+        width: 100%;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px black;
+        text-align: start;
+
+        h4 {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            color: rgb(255, 69, 69);
+        }
+
+        h3 {
+            line-height: 30px;
+            font-size: 1.8rem;
+            color: chocolate;
+            text-decoration: underline gray 1px;
+        }
+
+        .image-div {
+            width: 100%;
+            height: 500px;
+            padding-block: 16px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+        }
+
+        p {
+            text-align: justify;
+            font-size: 1.2rem;
+        }
+
+        button {
+            padding: 40px;
+        }
+
+
+
+    }
+}

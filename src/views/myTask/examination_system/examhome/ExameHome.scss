@@ -1,0 +1,37 @@
+.ExamHome {
+    width: 80%;
+    margin-inline: auto;
+    margin-top: 70px;
+
+    .allbutton {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .handelInputs {
+        margin-top: 150px;
+        width: 70%;
+        margin-inline: auto;
+
+        label {
+            font-weight: 500;
+            font-size: 1.2rem;
+            color: teal;
+        }
+
+        input {
+            font-size: 1rem;
+            display: block;
+            outline: none;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .button-primary {
+            width: 25%;
+        }
+    }
+}

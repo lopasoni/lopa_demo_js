@@ -1,0 +1,88 @@
+.BlogDive {
+    width: 70%;
+    margin-inline: auto;
+
+    .seach {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+        color: teal;
+    }
+
+    input {
+        margin-right: 10px;
+        outline: none;
+        padding: 13px;
+        border-radius: 10px;
+    }
+
+    .makeFlex {
+        display: flex;
+        gap: 25px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .blog {
+
+        width: 45%;
+        margin-block: 20px;
+        cursor: pointer;
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px black;
+        text-align: start;
+
+        h3 {
+            font-size: 1.4rem;
+            color: chocolate;
+            text-decoration: underline gray 1px;
+        }
+
+        .image-div {
+            width: 100%;
+            height: 400px;
+            padding-block: 16px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+        }
+
+        p {
+            overflow-y: hidden;
+            font-size: 1rem;
+        }
+
+        .button-secondary {
+            padding: 12px 10px;
+            background-color: rgb(243, 82, 82);
+            color: white;
+            font-size: 0.9rem;
+            border: none;
+            margin-top: 20px;
+            border-radius: 20px;
+        }
+
+        .button-secondary:hover {
+            cursor: pointer;
+            background-color: rgb(253, 36, 36);
+        }
+    }
+
+    .paginationButton {
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+
+}

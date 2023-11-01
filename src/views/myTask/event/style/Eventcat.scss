@@ -1,0 +1,53 @@
+.catagoryX {
+  width: 80%;
+  margin-top: 40px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+  align-items: center;
+
+  form {
+    padding: 20px;
+    border: 1px solid teal;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+
+  input {
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 50px;
+    margin-block: 20px;
+    font-size: 1rem;
+    display: block;
+    margin-inline: auto;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+  }
+
+  th,
+  td {
+    // width: 100%;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+
+  thead {
+    background-color: #f2f2f2;
+  }
+
+  tr {
+    width: 100%;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+}

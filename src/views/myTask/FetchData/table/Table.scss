@@ -1,0 +1,50 @@
+.table {
+
+  table {
+    width: 60%;
+    margin-inline: auto;
+    border-collapse: collapse;
+  }
+
+  th {
+    background-color: #f54c4c;
+    text-align: left;
+    padding: 10px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #c27979;
+  }
+
+  td {
+    overflow: hidden;
+    padding-block: 10px;
+    border: 1px solid #b4b4b4;
+    background-color: #eb9696;
+    text-align: center;
+    width: 100px;
+  }
+
+  thead tr {
+    background-color: #b4b4b4;
+    color: white;
+  }
+
+  thead th {
+    width: 100px;
+    text-align: center;
+  }
+
+  tbody {
+    background-color: #fff;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tbody td {
+    text-align: center;
+  }
+
+}

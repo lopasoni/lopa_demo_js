@@ -1,0 +1,22 @@
+.fierBase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: calc(100vh - 70px);
+
+    .signup-btn {
+        font-size: 1rem;
+        padding: 15px;
+        background-color: teal;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        // margin-inline: auto;
+    }
+
+    .signup-btn:hover {
+        cursor: pointer;
+        background-color: rgb(4, 185, 185);
+    }
+}

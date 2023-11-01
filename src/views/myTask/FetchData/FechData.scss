@@ -1,0 +1,49 @@
+.fetchdata {
+  .fix {
+    position: fixed;
+    bottom: 0;
+    left: 35%;
+  }
+
+  .pagination {
+    margin-left: 250px;
+    margin-bottom: 250px;
+    text-align: center;
+  }
+
+  .btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .active {
+    background-color: #ff5733;
+  }
+
+  table {
+    width: 60%;
+    margin-inline: auto;
+    border-collapse: collapse;
+  }
+
+  thead tr {
+    background-color: #b4b4b4;
+    color: white;
+  }
+
+  thead th {
+    width: 100px;
+    text-align: center;
+  }
+
+}
